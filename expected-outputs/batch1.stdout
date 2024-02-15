@@ -1,0 +1,58 @@
+COMMAND : ls
+Makefile
+batch-files
+expected-outputs
+navi
+out
+shell
+shell.c
+test.sh
+COMMAND : ls -a
+.
+..
+.git
+Makefile
+batch-files
+expected-outputs
+navi
+out
+shell
+shell.c
+test.sh
+COMMAND : pwd
+/root/kathir-shell-project
+COMMAND : cd ../.. ; ls
+bin
+boot
+dev
+etc
+home
+init
+lib
+lib32
+lib64
+libx32
+lost+found
+media
+mnt
+opt
+path
+proc
+root
+run
+sbin
+snap
+srv
+sys
+tmp
+usr
+var
+wslCEcNDG
+wslJNKEnf
+wslLJlFlh
+wsldCFHGi
+wsloBdFEH
+wslpKbdcB
+wslpKiAJc
+wslpmbCCm
+COMMAND : exit
