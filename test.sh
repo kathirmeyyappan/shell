@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 testname=$1
 BATCHPATH=./batch-files
 OUTPUTPATH=./expected-outputs

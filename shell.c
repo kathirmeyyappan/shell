@@ -352,6 +352,7 @@ int main(int argc, char *argv[])
             char *cmdscpy = copy_string(cmds);
             char *input = strip(cmdscpy);
             if (input[0] && (input[0] != '\n')) {
+                write(1, "COMMAND : ", 10);
                 shellPrint(cmds, STDOUT_FILENO);
             }
             
