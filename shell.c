@@ -19,6 +19,8 @@ void shellPrint(char *msg, int dest)
 /// shell prompt for user
 void shellPrompt() {
     char *cwd = getcwd(NULL, 0);
+    char* username = getenv("USER");
+    write(STDOUT_FILENO, username, strlen(username)); 
     write(STDOUT_FILENO, "@theCoolestShell:~", 18); 
     write(STDOUT_FILENO, cwd, strlen(cwd)); 
     write(STDOUT_FILENO, ">  ", 4); 
