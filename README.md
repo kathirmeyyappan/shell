@@ -5,7 +5,7 @@ This is a fully functional Unix Shell built in C, with support for all standard 
 ## Examples of Use
 <b>
   
-Below is an exmaple of some basic shell functionalities (directory navigation, running programs like 'ls' with args, etc.):
+Below is an exmaple of some basic shell functionalities (directory navigation, running programs like 'ls' with args):
 
 https://github.com/kathirmeyyappan/shell/assets/71161498/226e7681-20bf-44d1-9782-8c66393f2fc3
 
