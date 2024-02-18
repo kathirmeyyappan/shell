@@ -1,6 +1,6 @@
 # Unix Shell
 
-This is a fully functional Unix Shell built in C, with support for all standard commands (with args) as well as critical built-in ones like pwd, cd, etc. Batch commands are supported with file input, and are used for testing with the test.sh bash script.
+This is a fully functional Unix Shell built in C, with support for all standard commands (with args) as well as critical built-in ones like pwd, cd, echo, etc. Batch commands are supported with file input, and are used for testing with the test.sh bash script. Note that any and all whitespace is supported before and between args.
 
 ## Examples of Use
 <b>
